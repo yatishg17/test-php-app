@@ -11,6 +11,7 @@ This is a public repository to test deployment of PHP applications.
 - `app/info/index.php` - Shows `phpinfo()` output.
 - `app/private.php` and `app/info/private.php` - Use to test which
   PHP files are executed.
+- `app/db/index.php` - Tests connection to a MySQL compatible database.
 
 ## License
 
