@@ -1,3 +1,3 @@
 <?php
 
-echo 'This should not run';
+echo 'This should not run!';
