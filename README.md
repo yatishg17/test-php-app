@@ -13,6 +13,17 @@ This is a public repository to test deployment of PHP applications.
   PHP files are executed.
 - `app/db/index.php` - Tests connection to a MySQL compatible database.
 
+## Source Code
+
+The [test-php-app source] is hosted on GitHub.
+Clone the project with
+
+```
+$ git clone https://github.com/ourtownrentals/test-php-app.git
+```
+
+[test-php-app source]: https://github.com/ourtownrentals/test-php-app
+
 ## License
 
 Copyright 2016 OurTownRentals.com.
