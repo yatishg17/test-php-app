@@ -12,6 +12,8 @@ This is a public repository to test deployment of PHP applications.
 - `app/private.php` and `app/info/private.php` - Use to test which
   PHP files are executed.
 - `app/db/index.php` - Tests connection to a MySQL compatible database.
+- `app/rw/index.php` - Writes to and then reads from `app/data/rw.txt`.
+  The `app/data` path will need to be mounted to created by the host system.
 
 ## Source Code
 
