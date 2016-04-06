@@ -13,7 +13,7 @@
   </head>
   <body>
     <main>
-      <h1>This is HTML5 Boilerplate running PHP version: <?php phpversion(); ?></h1>
+      <h1>This is HTML5 Boilerplate running PHP version: <?php echo phpversion(); ?></h1>
       <p>
         <img src="img/HTML5_logo_and_wordmark.svg" width="100"
              alt="HTML5 logo and watermark">
