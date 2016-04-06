@@ -1,11 +1,11 @@
 <?php
 
-$db_host     = getenv('DB_HOST');
-$db_user     = getenv('DB_USER');
-$db_password = getenv('DB_PASSWORD');
-$db_name     = getenv('DB_NAME');
+define('DB_HOST',     getenv('DB_HOST'));
+define('DB_NAME',     getenv('DB_NAME'));
+define('DB_USER',     getenv('DB_USER'));
+define('DB_PASSWORD', getenv('DB_PASSWORD'));
 
-$mysqli = new mysqli($db_host, $db_user, $db_password, $db_name);
+$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 /* check connection */
 if ($mysqli->connect_errno) {
