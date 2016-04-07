@@ -14,6 +14,16 @@
   <body>
     <main>
       <h1>This is HTML5 Boilerplate running PHP version: <?php echo phpversion(); ?></h1>
+      <ul>
+        <li><a href="info">View PHP info</a></li>
+        <li><a href="private.php">Test private.php PHP file</a></li>
+        <li><a href="info/private.php">Test info/private.php PHP file</a></li>
+        <li><a href="db">Check MySQL database connection</a></li>
+        <li><a href="rw">Test read / write to data/rw.txt</a></li>
+        <li><a href="data/rw.txt">Open data/rw.txt</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
       <p>
         <img src="img/HTML5_logo_and_wordmark.svg" width="100"
              alt="HTML5 logo and watermark">
