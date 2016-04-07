@@ -1,6 +1,6 @@
 <?php
 
-$file = fopen('../data/rw.txt', 'w')
+$file = fopen('../data/rw.txt', 'w');
 fwrite($file, 'Test data\n');
 fclose($file);
 
