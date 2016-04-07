@@ -14,7 +14,7 @@
   <body>
     <main>
       <h1>This is HTML5 Boilerplate running PHP version: <?php echo phpversion(); ?></h1>
-      <ul>
+      <ul class="nav">
         <li><a href="info">View PHP info</a></li>
         <li><a href="private.php">Test private.php PHP file</a></li>
         <li><a href="info/private.php">Test info/private.php PHP file</a></li>
