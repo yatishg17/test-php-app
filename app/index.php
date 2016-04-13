@@ -21,6 +21,7 @@
         <li><a href="db">Check MySQL database connection</a></li>
         <li><a href="rw">Test read / write to data/rw.txt</a></li>
         <li><a href="data/rw.txt">Open data/rw.txt</a></li>
+        <li><a href="data/cron.txt">Open data/cron.txt</a></li>
       </ul>
       <p>
         <img src="img/HTML5_logo_and_wordmark.svg" width="100"
