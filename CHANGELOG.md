@@ -7,6 +7,7 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+- Write timestamp to `app/data/rw.txt`.
 - Add `app/cron.php` for testing cron tasks.
 
 ## 0.0.1 / 2016-04-07
