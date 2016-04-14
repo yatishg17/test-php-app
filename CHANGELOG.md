@@ -7,6 +7,7 @@ This change log follows the conventions of
 
 ## [Unreleased][Unreleased]
 
+- Add `app/public.php` and `app/info/public.php`.
 - Write timestamp to `app/data/rw.txt`.
 - Add `app/cron.php` for testing cron tasks.
 - Add `app/query` for testing query strings.
