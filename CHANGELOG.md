@@ -9,6 +9,7 @@ This change log follows the conventions of
 
 - Write timestamp to `app/data/rw.txt`.
 - Add `app/cron.php` for testing cron tasks.
+- Add `app/query` for testing query strings.
 
 ## 0.0.1 / 2016-04-07
 

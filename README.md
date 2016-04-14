@@ -8,6 +8,7 @@ This is a public repository to test deployment of PHP applications.
 
 - `app/index.html` - Static HTML page.
 - `app/index.php` - Same as `app/index.html`, but prints current PHP version.
+- `app/query/index.php?value=test` - Test using query strings.
 - `app/cron.php` - Writes a timestamp to `app/data/cron.txt`.
   Use to test a cron task.
 - `app/info/index.php` - Shows `phpinfo()` output.
