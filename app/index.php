@@ -19,6 +19,8 @@
         <li><a href="query/index.php?value=test">Test PHP query string</a></li>
         <li><a href="private.php">Test private.php PHP file</a></li>
         <li><a href="info/private.php">Test info/private.php PHP file</a></li>
+        <li><a href="public.php">Test public.php PHP file</a></li>
+        <li><a href="info/public.php">Test info/public.php PHP file</a></li>
         <li><a href="db">Check MySQL database connection</a></li>
         <li><a href="rw">Test read / write to data/rw.txt</a></li>
         <li><a href="data/rw.txt">Open data/rw.txt</a></li>
