@@ -12,6 +12,7 @@ This change log follows the conventions of
 - Add `app/public.php` and `app/info/public.php`.
 - Add `app/cron.php` for testing cron tasks.
 - Add `app/query` for testing query strings.
+- Add `app/.gitignore`.
 
 ### Changed
 
