@@ -9,15 +9,15 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
 /* check connection */
 if ($mysqli->connect_errno) {
-  printf("Connect failed: %s\n", $mysqli->connect_error);
-  exit();
+    printf("Connect failed: %s\n", $mysqli->connect_error);
+    exit();
 }
 
 /* check if server is alive */
 if ($mysqli->ping()) {
-  printf ("MySQL connection is ok!\n");
+    printf ("MySQL connection is ok!\n");
 } else {
-  printf ("Error: %s\n", $mysqli->error);
+    printf ("Error: %s\n", $mysqli->error);
 }
 
 /* close connection */
